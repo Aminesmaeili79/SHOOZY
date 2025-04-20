@@ -1,3 +1,13 @@
+# SHOOZY
+
+---
+
+A multi-themed website resembling a shoe store with collections, gallary, products and much more...
+
+> [Live Demo](https://aminesmaeili79.github.io/SHOOZY/)
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
