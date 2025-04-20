@@ -1,6 +1,6 @@
 import React from "react";
 import { useHook } from "../ThemeContext.jsx";
-import { Twitter, Github, ExternalLink } from "lucide-react";
+import { Twitter, Instagram, Facebook, ExternalLink } from "lucide-react";
 
 const Footer = () => {
     const { state } = useHook();
@@ -14,7 +14,7 @@ const Footer = () => {
                     <div>
                         <h3 className="text-sm uppercase tracking-wider text-secondary font-medium mb-3">About</h3>
                         <p className="text-sm text-secondary leading-relaxed">
-                            Building modern web experiences with Tailwind CSS and React.
+                            Discover the perfect pair of shoes for every occasion with Shoozy.
                         </p>
                     </div>
 
@@ -52,7 +52,14 @@ const Footer = () => {
                                 className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-box-border bg-opacity-10 text-secondary hover:text-primary hover:bg-opacity-20 transition-all duration-200"
                                 aria-label="GitHub"
                             >
-                                <Github size={16} />
+                                <Instagram size={16} />
+                            </a>
+                            <a
+                                href="#"
+                                className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-box-border bg-opacity-10 text-secondary hover:text-primary hover:bg-opacity-20 transition-all duration-200"
+                                aria-label="GitHub"
+                            >
+                                <Facebook size={16} />
                             </a>
                         </div>
                     </div>
@@ -60,10 +67,10 @@ const Footer = () => {
 
                 {/* Footer bottom - copyright & theme */}
                 <div className="pt-4 border-t border-box-border border-opacity-30 flex flex-col md:flex-row md:justify-between items-center text-xs text-secondary text-opacity-70">
-                    <div>© {new Date().getFullYear()} MyBrand. All rights reserved.</div>
+                    <div>© {new Date().getFullYear()} Shoozy. All rights reserved.</div>
                     <div className="mt-2 md:mt-0 flex items-center">
-                        <span className="mr-2">Theme:</span>
-                        <span className="capitalize px-2 py-1 rounded bg-box-border bg-opacity-10">
+                        <span className="mr-1">Theme:</span>
+                        <span className="capitalize px-1 py-1 rounded bg-box-border bg-opacity-10">
                             {state.theme}
                         </span>
                     </div>
