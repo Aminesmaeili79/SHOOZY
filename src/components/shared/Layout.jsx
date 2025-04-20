@@ -3,6 +3,7 @@ import Navbar from "../elements/Navbar.jsx";
 import {useEffect} from "react";
 import Themes from "../elements/Themes.jsx";
 import Hero from "../sections/Hero.jsx";
+import Gallery from "../elements/Gallery.jsx";
 
 const Layout = ({title}) => {
     useEffect(() => {
@@ -13,6 +14,7 @@ const Layout = ({title}) => {
         <>
             <Navbar />
             <Hero />
+            <Gallery/>
             <Footer />
         </>
     )
