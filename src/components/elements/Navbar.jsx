@@ -1,10 +1,8 @@
 // src/components/Navbar.jsx
 import React from "react";
-import { useHook } from "../ThemeContext.jsx";
 import Themes from "./Themes.jsx";
 
 const Navbar = () => {
-    const { state } = useHook();
     return (
         <nav
             className="bg-box border-b border-box-border px-16"
@@ -13,9 +11,9 @@ const Navbar = () => {
             <div className="container flex items-center justify-between py-4">
                 <button href="/" className="flex gap-1 text-heading-1 font-bold bg-custom(var(--bg-secondary))">
                    <span>
-                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
                             stroke="currentColor" className="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
 </svg>
                    </span>
                     <span>MENU</span>

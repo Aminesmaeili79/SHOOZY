@@ -208,10 +208,11 @@
     }
 }
 
-.bg-hero {
-    background: url("/public/bg-hero.png") !important;
+.hero-img {
+    background: url("/public/hero.png") !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
     background-position: center !important;
-    opacity: 0.2;
 }
 
 .shoe-1 {
@@ -272,4 +273,14 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.grid-cell {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border: 1px black dashed;
+}
+
+.hero-grid {
+    height: 100vh;
 }
