@@ -214,19 +214,62 @@
     opacity: 0.2;
 }
 
+.shoe-1 {
+    background: url("/public/shoe-1.png");
+}
+.shoe-2 {
+    background: url("/public/shoe-2.png");
+}
+.shoe-3 {
+    background: url("/public/shoe-3.png");
+}
+.shoe-4 {
+    background: url("/public/shoe-4.png");
+}
+.shoe-5 {
+    background: url("/public/shoe-5.png");
+}
+.shoe-6 {
+    background: url("/public/shoe-6.png");
+}
+.shoe-7 {
+    background: url("/public/shoe-7.png");
+}
+.shoe-8 {
+    background: url("/public/shoe-8.png");
+}
+.shoe-9 {
+    background: url("/public/shoe-9.png");
+}
+
 .shoe {
-    width: 100%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: 25% 25%;
-    overflow: hidden;
-    filter: grayscale(100%) blur(0);
+    position: relative;
     transition: all .5s ease;
 }
 
-.shoe:hover {
-    border-radius: 0;
-    transform: translateY(-2%) scale(1.05);
-    box-shadow: 0 10px 20px 5px var(--box-sd);
-    filter: blur(5px) grayscale(30%);
+.shoe-card {
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    /*filter: grayscale(100%) blur(0);*/
+}
+
+.shoe-text {
+    display: flex;
+    font-size: 1.6rem;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 4rem;
+    /*backdrop-filter: blur(10px);*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
