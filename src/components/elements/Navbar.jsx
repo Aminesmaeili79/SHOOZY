@@ -11,9 +11,15 @@ const Navbar = () => {
             aria-label="Main navigation"
         >
             <div className="container flex items-center justify-between py-4">
-                <a href="/" className="text-heading-1 font-bold">
-                    SHOOZY
-                </a>
+                <button href="/" className="flex gap-1 text-heading-1 font-bold bg-custom(var(--bg-secondary))">
+                   <span>
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" className="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+</svg>
+                   </span>
+                    <span>MENU</span>
+                </button>
                 {/* Example nav links; you can adjust as needed */}
                 <ul className="hidden md:flex space-x-8">
                     <li>
